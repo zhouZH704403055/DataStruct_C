@@ -37,6 +37,7 @@ void Merge(int arr[], int begin, int mid, int end, int* tmp)
 	{
 		tmp[n++] = arr[j++];
 	}
+	
 	memcpy(arr + begin, tmp + begin, sizeof(int)*(end - begin + 1));
 }
 
