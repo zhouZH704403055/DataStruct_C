@@ -1,4 +1,5 @@
 #include"list.h"
+
 //void test()
 //{
 //	Node* plist = NULL;
@@ -70,12 +71,12 @@
 
 //void TestJosephusCycle()
 //{
-	//pNode plist = NULL;
-	//for (int i = 1; i <= 10; i++)
-	//{
-	//	PushBack(&plist, i);
-	//}
-	//PrintList(plist);
+//	pNode plist = NULL;
+//	for (int i = 1; i <= 10; i++)
+//	{
+//		PushBack(&plist, i);
+//	}
+//	PrintList(plist);
 //	pNode pos = Find(plist, 10);
 //	pos->next = plist;
 //	JosephusCycle(&plist, 3);
